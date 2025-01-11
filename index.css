@@ -27,6 +27,7 @@ body {
     padding: 15px 20px;
     margin: auto;
     border-radius: 10px;
+    width: 380px;
 }
 
 #div3 {
@@ -36,6 +37,7 @@ body {
     text-align: center;
     margin: auto;
     margin-top: 20px;
+    width: 400px;
 }
 
 #myForm input {
