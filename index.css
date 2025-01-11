@@ -3,10 +3,6 @@ body {
     font-family: poppins;
 }
 
-section {
-    height: 50%;
-}
-
 #div1, #div2, #submit {
     color: #fff;
     text-align: center;
@@ -76,7 +72,7 @@ section {
     color: hsl(0, 100%, 74%);
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 764px) {
     body {
         display: flex;
         
