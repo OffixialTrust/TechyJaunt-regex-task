@@ -26,6 +26,7 @@ body {
     padding: 15px 20px;
     margin: 20px;
     border-radius: 10px;
+    width: 80%;
 }
 
 #div3 {
@@ -38,7 +39,7 @@ body {
 }
 
 #myForm input {
-    width: 200px;
+    width: 80%;
     padding: 15px 20px;
     margin-top: 10px;
     outline: none;
@@ -80,10 +81,9 @@ body {
     }
     
     #div2 {
-        width: 200px;
         margin: auto; padding: 3px;
         margin-bottom: 20px;
-        margin-top: 40px;
+        margin-top: 50px;
     }
     
     #div3 {
@@ -92,7 +92,7 @@ body {
     
     #div1 {
         margin: auto;
-        margin-top: 40px;
+        margin-top: 20px;
         height: 100%;
         font-size: 40px;
     }
