@@ -29,7 +29,7 @@ body {
 }
 
 #div3 {
-    width: 300px;
+    width: 80%;
     background: #fff;
     border-radius: 10px;
     padding: 5px;
@@ -69,7 +69,7 @@ body {
     color: hsl(0, 100%, 74%);
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 768px) {
     body {
         display: flex;
         
