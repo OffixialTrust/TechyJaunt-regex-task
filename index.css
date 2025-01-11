@@ -3,6 +3,10 @@ body {
     font-family: poppins;
 }
 
+section {
+    height: 50%;
+}
+
 #div1, #div2, #submit {
     color: #fff;
     text-align: center;
