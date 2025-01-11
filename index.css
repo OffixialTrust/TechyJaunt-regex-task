@@ -13,7 +13,8 @@ body {
 }
 
 #div1 .text {
-    font-size: 22px;
+    font-size: 30px;
+    padding: 0;
     
 }
 
@@ -26,11 +27,9 @@ body {
     padding: 15px 20px;
     margin: auto;
     border-radius: 10px;
-    width: 400px;
 }
 
 #div3 {
-    width: 400px;
     background: #fff;
     border-radius: 10px;
     padding: 5px;
@@ -71,7 +70,7 @@ body {
     color: hsl(0, 100%, 74%);
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 768px) {
     body {
         display: flex;
         
@@ -85,20 +84,21 @@ body {
         margin: auto; padding: 3px;
         margin-bottom: 20px;
         margin-top: 50px;
+        width: 400px;
     }
     
     #div3 {
         margin-top: 25px;
+        width: 400px;
     }
     
     #div1 {
         margin: auto;
         margin-top: 15px;
-        height: 100%;
         font-size: 40px;
     }
     
     #div1 .text {
-    font-size: 50px;
+    font-size: 45px;
     }
 } 
