@@ -1,0 +1,103 @@
+body {
+    background: hsl(0, 100%, 74%);
+    font-family: poppins;
+}
+
+#div1, #div2, #submit {
+    color: #fff;
+    text-align: center;
+}
+
+.text, #terms, #div3 input::placeholder {
+    font-weight: bold;
+}
+
+#div1 .text {
+    font-size: 22px;
+    
+}
+
+#div1 {
+    padding: 10px 15px;
+}
+
+#div2 {
+    background: hsl(249, 10%, 26%);
+    padding: 15px 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#div3 {
+    width: 300px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    margin: auto;
+}
+
+#myForm input {
+    width: 200px;
+    padding: 15px 20px;
+    margin-top: 10px;
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.error {
+    color: red;
+    display: none;
+    margin: 0;
+    vertical-align: middle;
+}
+
+#submit {
+    width: 200px;
+    background: hsl(154, 59%, 51%);
+    border: none;
+}
+
+#condition {
+    
+    color: #777777;
+    padding: 5px;
+}
+
+#terms {
+    color: hsl(0, 100%, 74%);
+}
+
+@media only screen and (min-width: 700px) {
+    body {
+        display: flex;
+        
+    }
+    
+    section {
+        flex: 1;
+    }
+    
+    #div2 {
+        width: 200px;
+        margin: auto; padding: 3px;
+        margin-bottom: 20px;
+        margin-top: 40px;
+    }
+    
+    #div3 {
+        margin-top: 25px;
+    }
+    
+    #div1 {
+        margin: auto;
+        margin-top: 40px;
+        height: 100%;
+        font-size: 40px;
+    }
+    
+    #div1 .text {
+    font-size: 50px;
+    }
+}
