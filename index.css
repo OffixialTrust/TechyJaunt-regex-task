@@ -73,7 +73,7 @@ body {
     color: hsl(0, 100%, 74%);
 }
 
-/* @media only screen and (min-width: 600px ) {
+ @media only screen and (min-width: 600px ) {
     #div1 {
         font-size: 30px;
     }
@@ -82,7 +82,7 @@ body {
         font-size: 45px;
     }
 }
-*/
+
 
 @media only screen and (min-width: 1024px) {
     body {
