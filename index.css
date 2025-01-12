@@ -1,6 +1,8 @@
 body {
     background: hsl(0, 100%, 74%);
     font-family: poppins;
+    width: 100%;
+    height: 100;
 }
 
 #div1, #div2, #submit {
@@ -74,6 +76,10 @@ body {
 }
 
  @media only screen and (min-width: 600px ) {
+    section {
+        height: 50%;
+    }
+    
     #div1 {
         font-size: 30px;
     }
@@ -83,16 +89,18 @@ body {
     }
 
     #div2 {
-        width: 390px;
+        width: 62%;
     }
     
     #div3{
-        width: 412px;
+        width: 65%;
     }
 }
 
 
-@media only screen and (min-width: 1000px) {
+
+
+@media only screen and (min-width: 854px) {
     body {
         display: flex;
         
