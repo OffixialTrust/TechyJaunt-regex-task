@@ -1,3 +1,5 @@
+alert("Your screen-width is: " + screen.width);
+
 function id(id) {
     return document.getElementById(id);
 }
