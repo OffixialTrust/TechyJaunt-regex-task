@@ -100,7 +100,7 @@ body {
 
 
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 840px) {
     body {
         display: flex;
         
