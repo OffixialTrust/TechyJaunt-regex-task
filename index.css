@@ -81,10 +81,18 @@ body {
     #div1 .text {
         font-size: 45px;
     }
+
+    #div2 {
+        width: 390px;
+    }
+    
+    #div3{
+        width: 412px;
+    }
 }
 
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 854px) {
     body {
         display: flex;
         
